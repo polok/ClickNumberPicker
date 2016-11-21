@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SwipeLayout">
+        <item name="android:paddingBottom">1px</item>
+        <item name="android:background">#e5e5e5</item>
+    </style>
+
+    <style name="CenterTextView">
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/center_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="RightTextView">
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/right_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="LeftTextView">
+        <item name="android:padding">6dp</item>
+        <item name="android:textColor">@color/left_text</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

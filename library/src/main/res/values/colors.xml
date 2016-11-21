@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="center_bg">#FFF</color>
+    <color name="center_text">#333</color>
+    <color name="right_bg">#fc515b</color>
+    <color name="right_text">#FFF</color>
+    <color name="left_bg">#054ecc</color>
+    <color name="left">#4287ff</color>
+    <color name="left_text">#FFF</color>
+
+    <color name="pickers_background">#3F51B5</color>
+    <color name="center_background">#99FFFFFF</color>
+    <color name="picker_pressed">#1AFFFFFF</color>
+
+</resources>

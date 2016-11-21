@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    android:id="@+id/rl_pickers_root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/picker_height"
+    android:background="@drawable/rectangle_corners">
+
+    <FrameLayout android:id="@+id/fl_click_numberpicker_left"
+                 android:layout_width="0dp"
+                 android:layout_height="@dimen/picker_height"
+                 android:layout_toLeftOf="@+id/center_picker"
+                 app:layout_widthPercent="30%"/>
+
+    <FrameLayout android:id="@+id/fl_click_numberpicker_right"
+                 android:layout_width="0dp"
+                 android:layout_height="@dimen/picker_height"
+                 android:layout_toRightOf="@+id/center_picker"
+                 app:layout_widthPercent="30%"/>
+
+    <RelativeLayout android:id="@+id/center_picker"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@color/center_background"
+                    app:layout_widthPercent="40%">
+
+        <TextView android:id="@+id/tv_value_numberpicker"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:gravity="center"
+                  android:text="TEST"
+                  android:textColor="@android:color/white"
+                  android:textSize="18sp"
+                  android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+
+</android.support.percent.PercentRelativeLayout>

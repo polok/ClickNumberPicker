@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_margin="15dp"
+              android:orientation="vertical">
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:picker_corner_radius="10"
+        app:pickers_background_color="#3F51B5"
+        app:swipe_enabled="false"
+        app:value_background_color="#5C6BC0"
+        app:value_text_color="@android:color/white"/>
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:decimal_number="2"
+        app:integer_priority="false"
+        app:picker_corner_radius="20"
+        app:pickers_background_color="#424242"
+        app:step="0.75"
+        app:swipe_animation="false"
+        app:swipe_enabled="false"
+        app:value_animation_down="true"
+        app:value_animation_up="true"
+        app:value_background_color="#212121"
+        app:value_text_color="@android:color/white"
+        app:value_view_offset="15"/>
+
+    <pl.polak.clicknumberpicker.ClickNumberPickerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        app:decimal_number="2"
+        app:integer_priority="false"
+        app:picker_corner_radius="20"
+        app:pickers_background_color="#cbcacc"
+        app:step="5"
+        app:swipe_animation="true"
+        app:swipe_enabled="true"
+        app:max_value="1000"
+        app:value_animation_down="true"
+        app:value_animation_up="true"
+        app:value_background_color="#707070"
+        app:left_picker_layout="@layout/left_picker_view"
+        app:right_picker_layout="@layout/right_picker_view"
+        app:value_text_color="@android:color/white"
+        app:value_view_offset="15"/>
+
+</LinearLayout>

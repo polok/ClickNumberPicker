@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@+id/right_numberpicker"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="0dp"
+          android:layout_height="@dimen/picker_height"
+          android:layout_toRightOf="@+id/center_picker"
+          android:background="@drawable/picker_button_selector"
+          android:gravity="center"
+          android:text="+"
+          android:textColor="@android:color/white"
+          android:textSize="36sp"/>
