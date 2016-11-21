@@ -12,8 +12,21 @@ Notice that ClickNumberPicker is a project under development. So far it contains
 ![image](art/demo_0_1_0.gif)
 
 #Integration
-IN-PROGRESS :)
+```groovy
+dependencies {
+    compile 'com.github.polok:clicknumberpicker:0.1.0'
+}
+```
 
+###### Using Maven:
+
+```xml
+<dependency>
+    <groupId>com.github.polok</groupId>
+    <artifactId>clicknumberpicker</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
 
 #Usage
 
