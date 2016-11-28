@@ -14,7 +14,7 @@ Notice that ClickNumberPicker is a project under development. So far it contains
 #Integration
 ```groovy
 dependencies {
-    compile 'com.github.polok:clicknumberpicker:0.1.0'
+    compile 'com.github.polok:clicknumberpicker:0.1.1'
 }
 ```
 
@@ -24,7 +24,7 @@ dependencies {
 <dependency>
     <groupId>com.github.polok</groupId>
     <artifactId>clicknumberpicker</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
 </dependency>
 ```
 

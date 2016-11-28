@@ -314,6 +314,18 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
         valueUpChangeAnimator.setRepeatMode(ValueAnimator.REVERSE);
     }
 
+    private String formatValue(float value) {
+        if(integerPriority && Math.round(value) == value) {
+            return String.format(Locale.US, "%.0f", value);
+        }
+
+        return String.format(Locale.US, valueFormatter, value);
+    }
+
+    /**
+     * Set picker current value
+     * @param value
+     */
     public void setPickerValue(float value) {
         if(value < minValue || value > maxValue) {
             return;
@@ -325,14 +337,10 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
         tvValue.setText(formatValue(this.value));
     }
 
-    private String formatValue(float value) {
-        if(integerPriority && Math.round(value) == value) {
-            return String.format(Locale.US, "%.0f", value);
-        }
-
-        return String.format(Locale.US, valueFormatter, value);
-    }
-
+    /**
+     * Update current picker value by provided step
+     * @param step
+     */
     public void updatePickerValueByStep(float step) {
         if(value + step < minValue) {
             setPickerValue(minValue);
