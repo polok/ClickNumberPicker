@@ -1,7 +1,7 @@
 #ClickNumberPicker
 Custom view to pick up a value from a given range using click button or swiping.
 
-###Version: 0.1.0
+###Version: 0.1.1
 
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -50,6 +50,12 @@ dependencies {
         public void onValueChange(float previousValue, float currentValue, PickerClickType pickerClickType) {
         }
     });
+```
+
+######Set picker current value:
+
+```java
+    picker.setPickerValue(69f);
 ```
 
 #Attributes
