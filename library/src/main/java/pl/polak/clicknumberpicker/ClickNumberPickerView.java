@@ -314,7 +314,7 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
         valueUpChangeAnimator.setRepeatMode(ValueAnimator.REVERSE);
     }
 
-    private void setPickerValue(float value) {
+    public void setPickerValue(float value) {
         if(value < minValue || value > maxValue) {
             return;
         }
@@ -333,7 +333,7 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
         return String.format(Locale.US, valueFormatter, value);
     }
 
-    private void updatePickerValueByStep(float step) {
+    public void updatePickerValueByStep(float step) {
         if(value + step < minValue) {
             setPickerValue(minValue);
         } else if (value + step > maxValue) {
