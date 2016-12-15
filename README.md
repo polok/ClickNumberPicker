@@ -1,7 +1,7 @@
 #ClickNumberPicker
 Custom view to pick up a value from a given range using click button or swiping.
 
-###Version: 0.1.1
+###Version: 0.1.2
 
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -14,7 +14,7 @@ Notice that ClickNumberPicker is a project under development. So far it contains
 #Integration
 ```groovy
 dependencies {
-    compile 'com.github.polok:clicknumberpicker:0.1.1'
+    compile 'com.github.polok:clicknumberpicker:0.1.2'
 }
 ```
 
@@ -24,7 +24,7 @@ dependencies {
 <dependency>
     <groupId>com.github.polok</groupId>
     <artifactId>clicknumberpicker</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.2</version>
 </dependency>
 ```
 
@@ -52,10 +52,16 @@ dependencies {
     });
 ```
 
-######Set picker current value:
+######Set picker's current value:
 
 ```java
     picker.setPickerValue(69f);
+```
+
+######Get picker's current value:
+
+```java
+    picker.getValue();
 ```
 
 #Attributes
