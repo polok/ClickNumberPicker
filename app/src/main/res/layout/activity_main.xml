@@ -12,6 +12,7 @@
         app:picker_corner_radius="10"
         app:pickers_background_color="#3F51B5"
         app:swipe_enabled="false"
+        app:value="20"
         app:value_background_color="#5C6BC0"
         app:value_text_color="@android:color/white"/>
 

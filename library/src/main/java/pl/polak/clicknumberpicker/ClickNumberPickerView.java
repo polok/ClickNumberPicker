@@ -338,6 +338,14 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
     }
 
     /**
+     * Get picker's current value directly instead through listener {@link ClickNumberPickerListener}
+     * @return current picker value
+     */
+    public float getValue() {
+        return this.value;
+    }
+
+    /**
      * Update current picker value by provided step
      * @param step
      */
