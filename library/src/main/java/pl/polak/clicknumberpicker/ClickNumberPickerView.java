@@ -263,6 +263,7 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
         rlCenter.setBackgroundColor(valueBackgroundColor);
         tvValue.setTextColor(valueColor);
         setPickerValue(value);
+        tvValue.setTextSize(valueTextSize);
     }
 
     private void initListeners() {
