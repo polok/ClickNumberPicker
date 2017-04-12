@@ -1,17 +1,17 @@
-#ClickNumberPicker
+# ClickNumberPicker
 Custom view to pick up a value from a given range using click button or swiping.
 
-###Version: 0.1.2
+### Version: 0.1.2
 
 [![License](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 Notice that ClickNumberPicker is a project under development. So far it contains very basic stuff and has some annoying restrictions but after few months of not doing anything with it, I decided to publish and hopefully this will be my motivation to finally improve it.
-####Welcome to fork and pull request.
+#### Welcome to fork and pull request.
 
-###Screenshot
+### Screenshot
 ![image](art/demo_0_1_0.gif)
 
-#Integration
+# Integration
 ```groovy
 dependencies {
     compile 'com.github.polok:clicknumberpicker:0.1.2'
@@ -28,9 +28,9 @@ dependencies {
 </dependency>
 ```
 
-#Usage
+# Usage
 
-######Add a picker in your xml layout file
+###### Add a picker in your xml layout file
 ```xml
     <pl.polak.clicknumberpicker.ClickNumberPickerView
         android:layout_width="match_parent"
@@ -42,7 +42,7 @@ dependencies {
         app:value_text_color="@android:color/white"/>
 ```
 
-######Set a listener to be notified when value has changed:
+###### Set a listener to be notified when value has changed:
 
 ```java
     picker.setClickNumberPickerListener(new ClickNumberPickerListener() {
@@ -52,19 +52,19 @@ dependencies {
     });
 ```
 
-######Set picker's current value:
+###### Set picker's current value:
 
 ```java
     picker.setPickerValue(69f);
 ```
 
-######Get picker's current value:
+###### Get picker's current value:
 
 ```java
     picker.getValue();
 ```
 
-#Attributes
+# Attributes
 
 There are several attributes you can set:
 
