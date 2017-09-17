@@ -322,6 +322,14 @@ public class ClickNumberPickerView extends PercentRelativeLayout {
 
         return String.format(Locale.US, valueFormatter, value);
     }
+    
+    public void setPickerMinValue(float value) {
+        this.minValue = value;
+    }
+    
+    public void setPickerMaxValue(float value) {
+        this.maxValue = value;
+    }
 
     /**
      * Set picker current value
